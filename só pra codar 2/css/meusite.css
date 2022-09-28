@@ -1,0 +1,129 @@
+section.h1{
+
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    margin-top: -5px;
+    
+}
+div.fotos{
+    margin-top: 50px;
+}
+
+section.h1 .h{
+    border-radius: 30px;
+    width: 1300px;
+    height: 75px;
+    transition: width 1s, height 1s;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+}
+section.h1 .h:hover{
+    box-shadow: 3rem 3rem 5rem black;
+    width: 1320px;
+    height: 85px;
+}
+
+.fotinha{
+    padding-left: 75px;
+}
+
+#foto{
+    width: 350px;
+    height: 350px;
+    border: solid 5px blue;
+    border-radius: 1000px;
+    margin-left: 375px;
+    transition: width 1s, height 1s;
+}
+div#mfoto{
+    margin-top: 50;
+}
+#foto:hover{
+    box-shadow: 0rem 1rem 2rem black;
+    width: 370px;
+    height: 370px;
+}
+
+div.gallery {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin: 35px;
+    border: 3px solid blue;
+    float: left;
+    width: 250px;
+    height: 320px;
+    transition: width 800ms, heigth 800ms;
+    border-radius: 50px;
+  }
+  
+  div.gallery:hover {
+    box-shadow: 1rem 1rem 1rem black;
+    border: 4px solid blue;
+    width: 270px ;
+    height: 340px ;
+  }
+  
+  div.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+div.tudo .tudinho{
+    background: blue;
+    display: block;
+  
+}
+div.tudo .tudinho .info{
+    background: blue;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr) ;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    gap: 4rem;
+}
+div.tudo .info  {
+    background: blue;
+    margin-top: -300px;
+    justify-items: center;
+    align-items: stretch;
+    justify-content: space-evenly;
+    align-content: center;
+   display: grid;
+    
+} 
+div.tudo .h1 h1 {
+    margin: 400px;
+    margin-top: 100px;
+    background: white;
+}
+
+div.oito{
+    background: blue;
+    align-items: center;
+    display:grid;
+}
+
+div.tudo .tudinho .oito{
+    display: grid;
+    margin-top: -100px;
+    margin-left: 200px;
+    width: 207px;
+    height: 535px;
+    background: white;
+    text-align: center;
+    justify-items:center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
